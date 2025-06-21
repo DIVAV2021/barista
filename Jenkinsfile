@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     IMAGE_NAME = 'divi2021/barista-site'
-    CREDENTIALS_ID = 'dockerhub-creds'
+    CREDENTIALS_ID = 'docker-hub-credentials-id'
   }
 
   stages {
